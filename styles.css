@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Overpass', sans-serif;
+
+
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 98vh;
+    
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 98vh;
+    display: none;
+
+}
+
+.vote-number {
+    color: hsl(25, 79%, 50%);
+    font-size: 11px;
+    vertical-align: middle;
+    font-weight: 700;
+    padding: 6px 8px;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 23px;
+    display: inline-block;
+    background-color: hsl(213, 25%, 23%);
+    border-radius: 20px;
+    
+    
+}
+
+.thank-you-title {
+
+    color: hsl(0, 0%, 100%);
+}
+
+.thank-you-info {
+
+    color: hsl(217, 12%, 63%);
+    font-size: 11px;
+     padding-top: 10px;
+     font-weight: 700;
+}
+
+
+.main-box {
+    
+    
+    width: 23rem;
+    height: 23rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 8%;
+    
+}
+
+.main-box-2 {
+    
+    width: 23rem;
+    height: 23rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 8%;
+    text-align: center;
+    
+}
+
+.round {
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: hsl(218, 23%, 14%);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.round:hover {
+    background-color: hsl(217, 12%, 63%);
+    transition: all 0.2s;
+}
+
+.box-content {
+    padding: 30px;
+}
+
+.label-text {
+   color :  hsl(0, 0%, 100%);
+   padding-top: 20px;
+   font-size: 1.5rem;
+}
+
+.p-text {
+color:hsl(217, 12%, 63%);
+font-size: 0.85rem;
+line-height: 1.3rem;
+font-weight: 400;
+padding-top: 5px;
+}
+
+
+.number-btn {
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: hsl(218, 23%, 14%);
+    color:  hsl(216, 12%, 54%);
+    margin-right: 20px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.number-btn:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.2s;
+}
+
+.number-btns {
+   display: flex;
+   padding: 0 35px;
+   
+}
+
+.orange-color {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit-btn {
+    width: 79%;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-style: none;
+    padding: 8px 0;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    
+    
+    border-radius: 20px;
+}
+
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    transition: all 0.2s;
+}
+.btn-container {
+    margin-top: 27px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.phone-illustration {
+   text-align: center;
+   margin-top: 40px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+.none {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
