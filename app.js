@@ -8,7 +8,7 @@ const number = document.querySelector('.selected-number')
  for (i = 0; i < btns.length; i++) {
 
    btns[i].addEventListener('click', function(){
-   
+       removeClass();
        this.classList.add('orange-color');
        
        console.log(this.innerHTML);
@@ -20,8 +20,7 @@ const number = document.querySelector('.selected-number')
       
        if(this.classList.contains('orange-color'))
        
-       this.previousElementSibling.classList.remove('orange-color')
-       this.nextElementSibling.classList.remove('orange-color')
+       
        
        submitBtn.addEventListener('click', function(){
    
@@ -44,5 +43,10 @@ const number = document.querySelector('.selected-number')
   };
 
   
-
+  function removeClass() {
+    btns.forEach(el => {
+        el.classList.remove('orange-color')
+    })
+};
   
+
